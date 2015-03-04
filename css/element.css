@@ -1,0 +1,185 @@
+/* = Commom
+-------------------------------------------------------------- */
+.red{display:block;margin:0px auto;width: 260px;height: 55px;
+	background: url(../img/i-bg.png) no-repeat #fe5360;
+	border:1px solid #fe5360;background-position: 0 -255px;font-size: 2em}
+p{white-space: pre-line;}
+.way-inner{font-size: 1.5em;color: black;line-height: 40px}
+.b{font-weight: bold}
+p.way-inner2{font-size: 1.2em;color: black;line-height: 40px}
+.nav-inner img{position: relative;}
+.nav-inner img:hover{-webkit-animation:myhhh .2s ease-in alternate infinite;}
+
+@-webkit-keyframes myhhh{from {top:0}to{top: -10px}}
+@-moz-keyframes myhhh{from {top:0}to{top: -10px}}
+@-o-keyframes myhhh{from {top:0}to{top: -10px}}
+@keyframes myhhh{from {top:0}to{top: -10px}}
+i{display:inline-block;background: url(../img/i-bg.png) no-repeat;text-align: right;position: relative;}
+i.c0{background-position:0 0px;width: 45px;height: 40px;top: -15px}
+i.c1{background-position:0 -76px;width: 65px;height: 55px;left: 10px}
+i.c2{background-position:0 -133px;width: 55px;height: 55px;}
+i.c3{background-position:0 -189px;width: 100px;height: 55px;}
+i.c4{background-position:0 -38px;width: 45px;height: 39px;top: -15px}
+i.c5{background-position: }
+
+.s1{color: #fe7b85}.s2{color: #52dbeb}.s3{color: #94dd82}.s4{color: #3b3b3b}.s5{color: #5b5b5b}.s6{color: #94dd82}
+ul{list-style-image: url(../img/list.png);position: relative;left: 20px;}
+ul li{color: black;line-height: 30px}
+
+
+h2.files-title{font-size: 3em;color: #474747;margin-top: 50px;text-align: center;}
+h2.files-title~p{margin-bottom: 50px}
+
+
+
+ul{width: 450px}
+.nav-left{position: fixed;height: 340px;width: 150px;top: 100px}
+.nav-left img{float: left;position: relative;top:5px }
+.nav-things{float: left;width: 80px;height: 100%}
+.nav-things a{color: #b5b5b5;display: block;position: relative;top:46px;left: 35px;margin-top: 15px;line-height: 18px}
+.nav-things a:hover{color: #008aff;font-weight: bold;}
+.nav-things a:hover img{display: block;}
+.nav-things a img{float: right;position: relative;top: 4px;z-index: 1;display: none;}
+.header,.sign-up,.noticeBox,.files,.footer{min-width: 940px}
+
+.c{text-align: center;color: #727171}
+
+/*弹出层*/
+#shadow_all{
+	display: none;
+	position: absolute;
+	z-index: 90;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+#pop_up{
+	display: none;
+	position: absolute;
+	z-index: 99;
+	width: 400px;
+	height: 471px;
+	background: #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	*left: 50%;
+	*margin-left: -200px;
+	*margin-top: 40px;
+}
+div#pop_up img{
+	float: right;
+	margin: 10px 10px 0 0;
+	cursor: pointer;
+}
+div#pop_up h3{
+	margin: 25px auto 18px;
+	width: 348px;
+	font-size: 20px;
+	border-bottom: 1px solid #d2d2d2;
+}
+div#pop_up h3 .h3_on{
+	display: inline-block;
+	padding: 11px 23px;
+	color: #fff;
+	background: #4ed0df;
+	font-size: 20px;
+}
+div#pop_up h3 .h3_click{
+	display: inline-block;
+	padding: 11px 23px;
+	color: #919191;
+	text-decoration: none;
+	font-size: 20px;
+}
+div#pop_up h3 .h3_click:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+div#pop_up form{
+	display: none;
+	width: 318px;
+	margin: 0 auto;
+}
+div#pop_up form input{
+	color: #dcdcdc;
+	width: 100%;
+	font-size: 18px;
+	height: 35px;
+	margin-top: 35px;
+	border: 1px solid #e4e4e4;
+}
+input[name="name"]{
+	background: url(../img/input_people.png) no-repeat;
+	background-position: 290px 5px;
+}
+input[name="password"]{
+	background: url(../img/input_lock.png) no-repeat;
+	background-position: 290px 5px;
+}
+div#pop_up form input[name="code"]{
+	width: 50%;
+}
+div#pop_up form img{
+	width: 40%;
+	height: 38px;
+	margin-top: 35px;
+}
+div#pop_up form span{
+	display: block;
+	margin: 30px 0 0 0;
+	float: right;
+	color: #000;
+}
+div#pop_up form span input{
+	font-size: 14px;
+	font-family: "宋体";
+	height: 16px;
+	width: 16px;
+	vertical-align: bottom;
+	margin: 0 10px 0 0;
+}
+div#pop_up form span a{
+	margin-left: 20px;
+	color: #3399e0;
+}
+div#pop_up form input#form_login{
+	display: block;
+	width: 104px;
+	height: 53px;
+	border: none;
+	background: #4ed0df;
+	color: #fff;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	margin-top: 20px;
+	margin-left: 20px;
+}
+div#pop_up form input#form_signin{
+	display: block;
+	width: 104px;
+	height: 53px;
+	border: none;
+	background: #4ed0df;
+	color: #fff;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+	float: right;
+}
+div#pop_up form#form_show{
+	display: block;
+}
+div#pop_up form#form_hide{
+	display: none;
+}
+div#pop_up form.second input{
+	margin-top: 20px;
+}
+a#login,a#signin{
+	margin: 0 5px;
+}

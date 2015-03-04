@@ -1,0 +1,25 @@
+#content h1{
+	background: url(../img/news_header.png) no-repeat;
+}
+#main{
+	padding: 20px 54px 0;
+}
+#main h2{
+	font-size: 30px;
+	color: #5b5b5b;
+	text-align: center;
+	margin: 10px 0 30px 0;
+}
+#main p{
+	font-size: 14px;
+	color: #5b5b5b;
+	line-height: 38px;
+	text-indent: 2em;
+}
+#main span{
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #5b5b5b;
+	float: right;
+}

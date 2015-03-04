@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/pag_common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/submit.css">
+	<script type="text/javascript" src="js/jQueryv1.7.2.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="page_center">
+			<a href="#">
+				<img src="img/page_header_logo.png" class="first_child"/>
+				<img src="img/page_header_back.png"/>
+			</a>
+			<div id="personal">
+				<a href="personal_center.html" class="first_child">个人中心</a>|
+				<a href="#" id="personal_right">退出</a>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="page_center">
+		<table id="subnav">
+			<tr>
+				<td><a href="signin.html"><img src="img/signin.png"/>完善信息</a></td>
+				<td class="subnav_span"><span>……</span></td>
+				<td><a href="teams.html"><img src="img/teams_login_on.png"/>团队报名</a></td>
+				<td class="subnav_span"><span>……</span></td>
+				<td><a href="submit.html"><img src="img/submit_works_on.png"/>作品提交</a></td>
+			</tr>
+		</table>
+		<div id="main">
+			<form>
+				<h4>创意交底书名称</h4>
+				<input type="text" name="name" class="texts"/>
+				<h4>创意领域</h4>
+				<select name="grade" id="select_2">
+					<option value="PayPass">无线支付</option>
+					<option value="e_commerce">电子商务</option>
+					<option value="phone_game">手机游戏及安全</option>
+					<option value="lbs">LBS</option>
+					<option value="O2O">O2O及在线支付</option>
+					<option value="social">社交商务和广告</option>
+					<option value="safe">网络安全及浏览器</option>
+					<option value="cloud">云计算及大数据处理</option>
+					<option value="game">在线游戏</option>
+					<option value="picture">图像识别、分类、标签</option>
+					<option value="calculation">深度计算、音视频</option>
+					<option value="recognition">生物识别及可穿戴技术</option>
+					<option value="foresight">互联网前瞻性技术</option>
+					<option value="others">其他</option>
+				</select>
+				<h4>创意概要</h4>
+				<div id="message">
+					<textarea  name="text" id="text"></textarea>
+					<p><span id="wordsize">0</span>/500<span>字</span></p>
+				</div>
+				<span>上传创意说明书：</span><input type="file" name="works" class="longinput">
+				<p>提示：说明书和一些支撑性材料等附件一起打包上传。
+纸质材料时提交。</p>
+				<span>上传独创性声明：</span><input type="file" name="works" class="longinput">
+				<p>提示：上传导师签字后的照片或扫描件，并保留原件在提交
+纸质材料时提交。</p>
+				<input type="submit" name="submit" class="submit" value="保存并提交">
+			</form>
+		</div>
+	</div>
+	<div id="footer" class="page_center">
+		<p>报名完毕请加QQ群：群号196028095 联系人:畅老师</p>
+		<p>电话：62481030（办）15310555550（手）邮箱：450785291@qq.com</p>
+		<p>大赛组委会保留最终解释权</p>
+	</div>
+	<script type="text/javascript" src="js/submit_work.js"></script>
+</body>
+</html>

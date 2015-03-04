@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>"腾讯-重邮"杯专业创意大赛</title>
+	<link rel="stylesheet" type="text/css" href="./css/element.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	<script type="text/javascript" src="js/jQueryv1.7.2.js"></script>
+</head>
+<body>
+			<!-- 从这里开始复制 -->
+		<div id="shadow_all">
+			
+		</div>
+		<div id="pop_up">
+			<img src="img/close.png" id="close"/>
+			<h3><a id="h3_login" class="h3_on">登录</a><a id="h3_signin" class="h3_click">注册</a></h3>
+			<form id="form_show">
+				<input type="text" name="name" value="学号/邮箱" placeholder="学号/邮箱"/>
+				<input type="text" value="密码" placeholder="密码" name="password"/>
+				<input type="text" value="验证码" placeholder="验证码" name="code" />
+				<img src=""/>
+				<span><input type="checkbox" name="remember" />记住我<a href="#">找回密码</a>
+					<input type="submit" name="submit" id="form_login" value="登录" />
+				</span>
+				<div style="clear: both"></div>
+			</form>
+			<form id="form_hide" class="second">
+				<input type="text" name="signin_name" value="姓名" placeholder="姓名"/>
+				<input type="text" value="学号" placeholder="学号" name="studentcode" />
+				<input type="text" value="密码" placeholder="密码" name="signin_password"/>
+				<input type="text" value="确认密码" placeholder="确认密码" name="repassword" />
+				<input type="submit" name="submit" id="form_signin" value="注册" />
+				<div style="clear: both"></div>
+			</form>
+		</div>
+		<!-- 到这里复制结束 -->
+	<div class="nav-left">
+		<div class="nav-things">
+
+			<a class="nav1" id="nav1" href="javascript:void(0)">
+				顶部
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav2" id="nav2" href="javascript:void(0)">
+				大赛动态
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav3" id="nav3" href="javascript:void(0)">
+				日程安排
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav4" id="nav4" href="javascript:void(0)">
+				竞赛须知
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav5" id="nav5" href="javascript:void(0)">
+				资料下载
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav6" id="nav6" href="javascript:void(0)">
+				奖项设置
+				<img src="./img/nav-hover.png" />
+			</a>
+			<a class="nav7" id="nav7" href="javascript:void(0)">
+				联系我们
+				<img src="./img/nav-hover.png" />
+			</a>
+		</div>
+		<img src="./img/nav.png"/>
+	</div>
+	<div class="header">
+		<div class="wrapper">
+			<div class="navigator">
+				<div>
+					<a id="login">登录</a>|<a id="signin">注册</a>
+				</div>
+			</div>
+			<div class="logo">
+				<img src="./img/logo.png"/>
+			</div>
+			<div class="nav">
+					<div class="nav-inner">
+						<a href="javascript:void(0)" class="na-sub activity"  id="activity">
+							<img src="./img/header1.png"/>
+							<span>大赛动态</span>
+						</a>
+						<a href="javascript:void(0)" class="na-sub arrange" id="arrange">
+							<img src="./img/header2.png"/>
+							<span>日程安排</span>
+						</a>
+						<a href="javascript:void(0)" class="na-sub notice" id="notice">
+							<img src="./img/header3.png"/>
+							<span>竞赛须知</span>
+						</a>
+						<a href="javascript:void(0)" class="na-sub download" id="download">
+							<img src="./img/header4.png"/>
+							<span>资料下载</span>
+						</a>
+						<a href="javascript:void(0)" class="na-sub awards" id="awards">
+							<img src="./img/header5.png"/>
+							<span>奖项设置</span>
+						</a>
+						<a href="javascript:void(0)" class="na-sub contact" id="contact">
+							<img src="./img/header6.png"/>
+							<span>联系我们</span>
+						</a>
+					</div>
+			</div>
+			<div class="message">
+					<div class="message-inner">
+						<div>主板单位：腾讯（深圳）有限公司、重庆邮电大学</div>
+						<div>承办单位: “腾讯—重邮”专利创意孵化中心</div>
+					</div>
+					
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="introduce">
+			<p><i class="c0"></i>&nbsp;&nbsp;无论你是<i class="c1"></i><span class="s1">软妹子</span>，还是，<i class="c2"></i><span class="s2">硬汉子</span></p><p>只要你是在校全日制<span class="s5">本科生、研究生，</span>并且有一颗热爱创造的心，即可参加比赛。可以<i class="c3"></i><span class="s6">组队</span>参加竞赛，每个团队最多<span class="s4">4人。</span><i class="c4"></i></p>
+		</div>
+	</div>
+	<div class="sign-up">
+			<a href="#"><button class="red">&nbsp;&nbsp;立即报名</button></a>
+		</div>
+		<div class="news">
+			<div class="wrapper">
+			<div class="news-center">
+				<h1>注意事项</h1>
+				<p>1. 获奖作品必须为原创作品，且未以论文或其他形式公开过，如发现
+					参赛作品存在权属及类似问题，当即取消参赛资格，并承担由作品侵
+					权可能造成的后果。
+					2. 凡获奖创意均由腾讯公司协助申请专利，专利撰写、申请等费用由
+					腾讯公司承担，但创意人有配合专利撰写的义务，奖金在创意人的配
+					合义务全部完成后才进行发放。
+					3. 获奖选手作为发明人除获得上述资助外，还可能获得学校相关奖励。
+					4.大赛组委会保留最终解释权。 
+					</p>
+				<div class="news-more">
+					<a href="">查看更多</a>
+				</div>
+			</div>
+			<div class="news-right">
+				<h1>大赛动态</h1>
+				<div class="news-item">
+					<span>
+						<div class="month">四月</div>
+						<div class="day">23</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>比赛详情</p></div>
+						</a>
+					</span>
+				</div>
+				<div class="news-item">
+					<span>
+						<div class="month">五月</div>
+						<div class="day">15</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>大啊啊啊赛背景</p></div>
+						</a>
+					</span>
+				</div>
+				<div class="news-item">
+					<span>
+						<div class="month">四月</div>
+						<div class="day">23</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>啦啦啦</p></div>
+						</a>
+					</span>
+				</div>
+				<div class="news-item">
+					<span>
+						<div class="month">四月</div>
+						<div class="day">23</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>比赛详细</p></div>
+						</a>
+					</span>
+				</div>
+				<div class="news-item">
+					<span>
+						<div class="month">四月</div>
+						<div class="day">23</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>比赛详细</p></div>
+						</a>
+					</span>
+				</div>
+				<div class="news-item">
+					<span>
+						<div class="month">四月</div>
+						<div class="day">23</div>
+					</span>
+					<span>
+						<a href="#">
+							<div class="news-table"><p>大赛背景<p></div>
+						</a>
+					</span>
+				</div>
+			</div>
+			</div>
+	</div>
+
+
+		<div class="noticeBox">
+			<div class="noticeBoxWrapper">
+				<div class="noticeLeft">
+				<div>
+					<p class="date dp1">5月6日--16日</p>
+					<p>进行专利检索分析培训
+						（具体见QQ群通知）
+					</p>
+				</div>
+				<div>
+					<p class="date dp2">6月1日--20日</p>
+					<p class="dpMessage1">作品评审</p>
+				</div>
+				<div>
+					<p class="date dp3">6月26日</p>
+					<p><strong>公布大赛评选结果</strong></p>
+				</div>
+				
+			</div>
+			<div class="noticeCenter">
+				<div class="separator"></div>
+				<div class="days ds1">15<s>天</s></div>
+				<div class="separator"></div>
+				<div class="days ds2">5<s>天</s></div>
+				<div class="separator"></div>
+				<div class="days ds3">21<s>天</s></div>
+				<div class="separator"></div>
+				<div class="days ds4">20<s>天</s></div>
+				<div class="separator"></div>
+				<div class="days ds5">5<s>天</s></div>
+				<div class="separator"></div>
+				<div class="days ds6">end</div>
+				<div class="separator"></div>
+			</div>
+			<div class="noticeRight">
+				<div>
+					<p class="date dp1">4月21日--5月5日</p>
+					<p>网上报名:
+						①加QQ群196028095
+						②上传报名表至FTP
+					</p>
+				</div>
+				<div>
+					<p class="date dp2">5月11日--31日</p>
+					<p>（1）提交创意作品（上传至FTP）
+（2）将纸质文档提交科技处备案。</p>
+				</div>
+				<div class="notice-last">
+					<p class="date dp3">6月21日--25日</p>
+					<p class="dpMessage2">作品公示</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	<div class="wrapper">
+		<div class="Know">
+			<div class="competition-way">
+				<div class="way-header">
+					<h2 class="way-title">竞赛方式</h2>
+					<p class="way-inner"><strong>对我们的比赛还存在疑问？想要进一步了解我们的比赛？</strong>下面将介绍
+					比赛方式。详细资料请点击右边图标下载。</p>
+				</div>
+				<hr/>
+				<div class="way-content">
+					<div class="way-header">
+						<h3 class="way-fields">创意领域</h3>
+						<p class="way-inner2">重点围绕腾讯在移动互联网领域现有及未来可能出来的产品及服务</p>
+					</div>
+					<div class="way-detail">
+
+					<span class="">
+						<div class="fields fp1"></div>
+						<p>无线支付、无线电子商务、手机游戏、安全，LBS等</p>
+					</span>
+					<span class="">
+						<div class="fields fp2"></div>
+						<p>泛电子商务，包括O2O及在线支付，以及社交商务和广告等；</p>
+					</span>
+					<span class="">
+						<div class="fields fp3"></div>
+						<p>网络安全以及浏览器</p>
+					</span>
+					<span class="">
+						<div class="fields fp4"></div>
+						<p>云计算以及大数据处理</p>
+					</span>
+					<span class="">
+						<div class="fields fp5"></div>
+						<p>增强现实，包括生物识别及可穿戴设备</p>
+					</span>
+					<span class="">
+						<div class="fields fp6"></div>
+						<p>图像识别、分类、标签以及深度计算、音视频</p>
+					</span>
+					<span class="">
+						<div class="fields fp7"></div>
+						<p>互联网前瞻性技术</p>
+					</span>
+					<span class="">
+						<div class="fields fp8"></div>
+						<p>任何好创意、好点子</p>
+					</span>
+
+						
+					</div>
+				</div>
+				<hr/>
+				<div class="way-footer">
+					<div class="way-header">
+					<h3 class="way-fields">参赛要求</h3>
+						<ul>
+							<li>参赛创意应内容积极、健康向上、构思新颖；</li>
+							<li>参赛创意必须是原创的、参赛者或团队独立完成的；</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div class="competition-way">
+				<div class="way-header">
+					<h2 class="way-title">评比规则</h2>
+					<p class="way-inner"><strong>如何才能在比赛中脱颖而出？如果才能抓住评委老师的心？</strong>接下来将
+					详细讲解评分规则并列出你可能出现的问题</p>
+				</div>
+				<hr/>
+				<div class="way-content">
+					<div class="way-field">
+						<h3 class="way-fields">组织形式</h3>
+						<p class="way-inner2">参赛选手上交创意作品，组委会对参赛选手的作品进行初选后提交腾讯公司进行最终评选</p>
+					</div>
+					<div class="way-message">
+						<h3 class="way-fields">作品评价指标</h3>
+						<ul>
+							<li>领域用途匹配性（提交作品应严格按照上述规定的创意领域）</li>
+							<li>技术方案完整性（技术方案尽可能写的详尽、完善）</li>
+							<li>技术方案创新性（自行进行专利检索，所提技术方案应当具有创新度）</li>
+						</ul>
+					</div>
+					<div class="way-message">
+						<h3 class="way-fields">加分项</h3>
+						<ul>
+							<li>技术性强；</li>
+							<li>技术方案完整，描述得详细；</li>
+							<li>当前或未来互联网相关热点技术；</li>
+						</ul>
+					</div>
+					<div class="way-message">
+						<h3 class="way-fields">注意事项</h3>
+						<ul>
+							<li>创意涉及的技术领域与腾讯业务及关注领域完全不相关；</li>
+							<li>创意属于测试、分析等非产品应用技术；</li>
+							<li>创意想法很超前，但无技术方案；</li>
+							<li>创意技术方案中缺少解决问题的关键技术细节；</li>
+							<li>创意技术方案创新性不足，无法达到申请专利的要求；</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+		
+	<div class="files">
+		<div class="wrapper">
+			<h2 class="files-title">资料下载</h1>
+			<p class="way-inner c">在这里，你可以找到大赛格式模板，大赛详细规则等所需的资料。</p>
+			<a href="#">
+				<img src="./img/doc.png"/>
+				<p>第一届重邮—腾讯杯
+					专利创意大赛</p>
+			</a>
+			<a href="#">
+				<img src="./img/doc.png"/>
+				<p>第一届重邮—腾讯杯
+					专利创意大赛</p>
+			</a>
+			<a href="#">
+				<img src="./img/doc.png"/>
+				<p>第一届重邮—腾讯杯
+					专利创意大赛啊啊啊啊啊啊啊啊啊</p>
+			</a>
+			<a href="#">
+				<img src="./img/doc.png"/>
+				<p>第一届重邮—腾讯杯
+					专利创意大赛</p>
+			</a>
+
+			<a href="#" id="lookmore">查看更多</a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="price">
+			<h2 class="price-title">奖项设置</h2>
+			<p class="way-inner c">本项目选中的创意，还可以申报学校大学生科研创新计划，并享有优先入选权。</p>
+			<div class="price-content">
+				<div class="price-left">
+					<h2>特等奖</h2>
+					<p>提供专利创意孵化资助 10000元</p>
+
+					<h2>二等奖</h2>
+					<p>提供专利创意孵化资助 3000元</p>
+				</div>
+				<div class="price-center">
+					<img src="./img/price4.png" />
+					<img src="./img/price3.png" />
+					<img src="./img/price2.png" />
+					<img src="./img/price1.png" />
+				</div>
+				<div class="price-right">
+					<h2>一等奖</h2>
+					<p>提供专利创意孵化资助 5000元</p>
+	
+					<h2>三等奖</h2>
+					<p>提供专利创意孵化资助 1000元</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="footer">
+		<div class="wrapper">
+			<div class="footer-message">
+				<p>
+					报名完毕请加QQ群：群号196028095
+					联系人：畅君元老师
+					电话：62481030（办）
+					15310555550（手）
+					邮箱：450785291@qq.com
+				</p>
+				
+			</div>
+			<p class="copyright">大赛组委会保留最终解释权</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript"> 
+
+(function(){
+	var moveTo=function(y,timer){
+		var height=document.body.scrollHeight-document.documentElement.clientHeight;
+		var sTop=document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+		y=y>height?height:y;
+		
+		clearTimeout(window.t);
+		if(y>sTop){
+			//向下
+			var current=Math.ceil((y-sTop)*0.1)+sTop;
+		}else{
+			var current=Math.floor((y-sTop)*0.1)+sTop;
+		}
+		if(current!=y){
+			window.scrollTo(0,current);
+			window.t=setTimeout(function(){
+				moveTo(y,timer);
+			},timer);
+		}else{
+			clearTimeout(window.t);
+			window.scrollTo(0,y);
+		}
+	}
+	var $=function(id){
+		return document.getElementById(id);
+	}
+
+	var $$=function(selector,context){
+		context=context||document;
+		return document.querySelector(selector);
+	}
+	var pushBack=[0,1200,1800,2600,4800,5400,5550];
+	window.onload=navOper;
+	window.onscroll=navOper;
+	function navOper(){
+		setVoid();
+		var top=document.documentElement.scrollTop||window.pageYOffset||document.body.scrollTop;
+		switch(true){
+			case top<400:
+				$$('#nav1 img').style.display='block';
+				fadeOut($$('.nav-left'),50);
+				return;
+			case top>=400 && top<1800:
+				$$('#nav'+2+" img").style.display='block';
+				break;
+			case top>=1800 && top<2600:
+				$$('#nav'+3+" img").style.display='block';
+				break;
+			case top>=2600 && top<4800:
+				$$('#nav'+4+" img").style.display='block';
+				break;
+			case top>=4800 && top<5400:
+				$$('#nav'+5+" img").style.display='block';
+				break;
+			case top>=5400 && top<5500:
+				$$('#nav'+6+" img").style.display='block';
+				break;
+			case top>=5500:
+				$$('#nav'+7+" img").style.display='block';
+				break;
+		}
+		clearTimeout(window.fadeout);
+		if($$('.nav-left').style.display=='none'){
+			fadeIn($$('.nav-left'),50);
+		}
+	}
+	
+	var setVoid=function(){
+		//首先把导航条显示出来
+
+		for(var i=1;i<=7;i++){
+			var e=$$('#nav'+i+' img');
+			e.style.display='none';
+		}
+	}
+
+	var fadeOut=function(e,timer){
+		clearTimeout(window.fadeout);
+		clearTimeout(window.fadein);
+		window.opacity=100;
+		var fade=function(e,timer){
+			if(opacity>0){
+				//上锁
+				//window.isOut=true;
+				opacity-=5;
+				e.style.filter="alpha(opacity="+opacity+")";
+				e.style.opacity=opacity/100;
+				window.fadeout=setTimeout(function(){
+					fade(e,timer);
+				},timer);
+			}else{
+				//解锁
+				clearTimeout(window.fadeout);
+				e.style.display='none';
+				//window.isOut==false;
+			}
+		}
+		fade(e,timer);
+	}
+	var fadeIn=function(e,timer){
+		clearTimeout(window.fadeout);
+		clearTimeout(window.fadein);
+		window.opacity=0;
+		e.style.display='block';
+		var fade=function(e,timer){
+			if(opacity<100){
+				//上锁
+				opacity+=5;
+				window.isIn=true;
+				e.style.filter="alpha(opacity="+opacity+")";
+				e.style.opacity=opacity/100;
+				window.fadein=setTimeout(function(){
+					fade(e,timer);
+				},timer);
+			}else{
+				clearTimeout(window.fadein);
+				e.style.filter="alpha(opacity=100)";
+				e.style.opacity=1;
+				//解锁
+				
+			}
+		}
+		fade(e,timer);
+	}
+	$('nav'+1).onclick=function(e){
+		moveTo(pushBack[0],10);
+	}
+	$('nav'+2).onclick=function(e){
+		moveTo(pushBack[1],10);
+	}
+	$('nav'+3).onclick=function(e){
+		moveTo(pushBack[2],10);
+	}
+	$('nav'+4).onclick=function(e){
+		moveTo(pushBack[3],10);
+	}
+	$('nav'+5).onclick=function(e){
+		moveTo(pushBack[4],10);
+	}
+	$('nav'+6).onclick=function(e){
+		moveTo(pushBack[5],10);
+	}
+	$('nav'+7).onclick=function(e){
+		moveTo(pushBack[6],10);
+	}
+	
+	$('activity').onclick=function(){
+		moveTo(pushBack[1],10);
+	};
+	$('arrange').onclick=function(){
+		moveTo(pushBack[2],10);
+	};
+	$('notice').onclick=function(){
+		moveTo(pushBack[3],10);
+	};
+	$('download').onclick=function(){
+		moveTo(pushBack[4],10);
+	};
+	$('awards').onclick=function(){
+		moveTo(pushBack[5],10);
+	};
+	$('contact').onclick=function(){
+		moveTo(pushBack[6],10);
+	};
+})();
+
+
+
+
+</script>
+</html>

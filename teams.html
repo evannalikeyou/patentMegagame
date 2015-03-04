@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/pag_common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/teams.css">
+	<script type="text/javascript" src="js/jQuery v1.11.1.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="page_center">
+			<a href="#">
+				<img src="img/page_header_logo.png" class="first_child"/>
+				<img src="img/page_header_back.png"/>
+			</a>
+			<div id="personal">
+				<a href="personal_center.html" class="first_child">个人中心</a>|
+				<a href="#" id="personal_right">退出</a>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="page_center">
+		<table id="subnav">
+			<tr>
+				<td><a href="signin.html"><img src="img/signin.png"/>完善信息</a></td>
+				<td class="subnav_span"><span>……</span></td>
+				<td><a href="teams.html"><img src="img/teams_login_on.png"/>团队报名</a></td>
+				<td class="subnav_span"><span>……</span></td>
+				<td><a href="submit.html"><img src="img/submit_works.png"/>作品提交</a></td>
+			</tr>
+		</table>
+		<div id="main">
+			<form action="">
+				<table>
+					<tr>
+						<td class="table_left">负责人：</td>
+						<td>
+							<input type="text" name="name" placeholder="姓名" value="姓名" class="name"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="student_code" value="学号" placeholder="学号"/></td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td>
+							<select id="select_1">
+								<option value="benke">本科生</option>
+								<option value="yanjiu">研究生</option>
+							</select>
+							<select name="grade" id="select_2">
+								<option value="2010">2010级</option>
+								<option value="2011">2011级</option>
+								<option value="2012">2012级</option>
+								<option value="2013">2013级</option>
+								<option value="2014">2014级</option>
+								<option value="2015">2015级</option>
+								<option value="2016">2016级</option>
+								<option value="2017">2017级</option>
+								<option value="2018">2018级</option>
+								<option value="2019">2019级</option>
+								<option value="2020">2020级</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td>
+							<select>
+							  <option value="tongxin">通信与信息工程学院</option>
+							  <option value="computer">计算机科学与技术学院</option>
+							  <option value="guangdian">光电工程学院</option>
+							  <option value="auto">自动化学院</option>
+							  <option value="jingji">经济管理学院</option>
+							  <option value="video">传媒艺术学院</option>
+							  <option value="shuli">理学院</option>
+							  <option value="faxue">法学院</option>
+							  <option value="">外国语学院</option>
+							  <option value="">国际学院</option>
+							  <option value="">体育学院</option>
+							  <option value="">软件工程学院</option>
+							  <option value="">生物信息学院</option>
+							  <option value="">马克思主义学院</option>
+							  <option value="">继续教育学院</option>
+							  <option value="">电信研究院</option>
+							  <option value="">国防研究院</option>
+							  <option value="">教育发展研究院</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="phone" placeholder="电话" value="电话"/></td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="qq" value="QQ" placeholder="QQ" /></td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="email" value="邮箱" placeholder="邮箱"/></td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="teacher" value="辅导员姓名" placeholder="辅导员姓名"/></td>
+					</tr>
+					<tr>
+						<td class="table_left">&nbsp;</td>
+						<td><input type="text" name="teacher" value="导师姓名" placeholder="导师姓名"/></td>
+					</tr>
+				</table>
+				<p id="add_member">点此添加参与人</p>
+				<table class="hide" id="delete_1">
+					<tr>
+						<td>参与人：</td>
+						<td>
+							<input type="text" name="name" value="姓名" placeholder="姓名" class="name"/>
+							<p id="delete_mem1">点此删除参与人</p>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><input type="text" name="student_code" value="学号" placeholder="学号"/></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<select>
+							  <option value="tongxin">通信与信息工程学院</option>
+							  <option value="computer">计算机科学与技术学院</option>
+							  <option value="guangdian">光电工程学院</option>
+							  <option value="auto">自动化学院</option>
+							  <option value="jingji">经济管理学院</option>
+							  <option value="video">传媒艺术学院</option>
+							  <option value="shuli">理学院</option>
+							  <option value="faxue">法学院</option>
+							  <option value="">外国语学院</option>
+							  <option value="">国际学院</option>
+							  <option value="">体育学院</option>
+							  <option value="">软件工程学院</option>
+							  <option value="">生物信息学院</option>
+							  <option value="">马克思主义学院</option>
+							  <option value="">继续教育学院</option>
+							  <option value="">电信研究院</option>
+							  <option value="">国防研究院</option>
+							  <option value="">教育发展研究院</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<table class="hide"  id="delete_2">
+					<tr>
+						<td>参与人：</td>
+						<td>
+							<input type="text" name="name" value="姓名" placeholder="姓名" class="name"/>
+							<p id="delete_mem2">点此删除联系人</p>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><input type="text" name="student_code" value="学号" placeholder="学号"/></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<select>
+							  <option value="tongxin">通信与信息工程学院</option>
+							  <option value="computer">计算机科学与技术学院</option>
+							  <option value="guangdian">光电工程学院</option>
+							  <option value="auto">自动化学院</option>
+							  <option value="jingji">经济管理学院</option>
+							  <option value="video">传媒艺术学院</option>
+							  <option value="shuli">理学院</option>
+							  <option value="faxue">法学院</option>
+							  <option value="">外国语学院</option>
+							  <option value="">国际学院</option>
+							  <option value="">体育学院</option>
+							  <option value="">软件工程学院</option>
+							  <option value="">生物信息学院</option>
+							  <option value="">马克思主义学院</option>
+							  <option value="">继续教育学院</option>
+							  <option value="">电信研究院</option>
+							  <option value="">国防研究院</option>
+							  <option value="">教育发展研究院</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<table class="hide" id="delete_3">
+					<tr>
+						<td>参与人：</td>
+						<td>
+							<input type="text" name="name" value+"姓名" placeholder="姓名" class="name"/>
+							<p id="delete_mem3">点此删除联系人</p>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td><input type="text" name="student_code" value="学号" placeholder="学号"/></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+							<select>
+							  <option value="tongxin">通信与信息工程学院</option>
+							  <option value="computer">计算机科学与技术学院</option>
+							  <option value="guangdian">光电工程学院</option>
+							  <option value="auto">自动化学院</option>
+							  <option value="jingji">经济管理学院</option>
+							  <option value="video">传媒艺术学院</option>
+							  <option value="shuli">理学院</option>
+							  <option value="faxue">法学院</option>
+							  <option value="">外国语学院</option>
+							  <option value="">国际学院</option>
+							  <option value="">体育学院</option>
+							  <option value="">软件工程学院</option>
+							  <option value="">生物信息学院</option>
+							  <option value="">马克思主义学院</option>
+							  <option value="">继续教育学院</option>
+							  <option value="">电信研究院</option>
+							  <option value="">国防研究院</option>
+							  <option value="">教育发展研究院</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<input type="submit" name="submit" id="save" value="提交报名"/>
+				<a href="#" id="go_back">&#62;&#62;返回</a>
+			</form>
+		</div>
+	</div>
+	<div id="footer" class="page_center">
+		<p>报名完毕请加QQ群：群号196028095 联系人:畅老师</p>
+		<p>电话：62481030（办）15310555550（手）邮箱：450785291@qq.com</p>
+		<p>大赛组委会保留最终解释权</p>
+	</div>
+	<script type="text/javascript" src="js/teams.js"></script>
+</body>
+</html>

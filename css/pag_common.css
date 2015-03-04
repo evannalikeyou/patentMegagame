@@ -1,0 +1,87 @@
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:"Microsoft YaHei";
+    font-size: 12px;
+}
+input,textarea,select{
+    font-size:100%;    
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+img{
+	border:0;
+}
+.page_center{
+    width: 941px;
+    margin: 0 auto;
+}
+/* start of the header*/
+#header{
+    background: #04979f;
+    height: 83px;
+    padding: 1px;
+}
+#header a{
+    display: inline-block;
+    margin-top: 30px;
+}
+#header .page_center .first_child{
+    margin-right: 10px;
+}
+#personal{
+    display: inline-block;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+}
+#personal a{
+    color: #fff;
+    text-decoration: none;
+}
+#personal a.first_child{
+    background: url(../img/personal.png) no-repeat;
+    padding: 2px 0 5px 23px;
+}
+#personal_right{
+    margin-left: 5px;
+}
+/*end of the header*/
+#content h1{
+    color: #04979f;
+    padding: 0 0 8px 50px;
+    margin-top: 30px;
+    border-bottom: 1px solid #50cac3;
+    font-size: 30px;
+    line-height: 30px;
+}
+#content h1 span{
+    font-weight: normal;
+    float: right;
+    font-size: 14px;
+    line-height: 3.5em;
+    display: inline-block;
+    color: #04979f;
+}
+#content h1 span a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+/*start of the footer*/
+#footer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #818181;
+    font-weight: lighter;
+}

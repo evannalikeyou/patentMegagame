@@ -1,0 +1,59 @@
+#subnav{
+	width: 750px;
+	margin: 20px auto;
+}
+#subnav tr td a{
+	text-align: center;
+	display: inline-block;
+	width: 90px;
+	height: 125px;
+	font-size: 18px;
+	color: #5e5e5e;
+	text-decoration: none;
+}
+#subnav tr td span{
+	font-family: "宋体";
+	font-size: 60px;
+	color: #05c6d0;
+}
+#main form{
+	width: 435px;
+	margin: 0 auto;
+}
+#main form table{
+	font-size: 18px;
+	width: 100%;
+}
+#main form table tr td{
+	line-height: 50px;
+}
+#main form input{
+	font-size: 18px;
+	width: 185px;
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+}
+#main form table .table_left{
+	float: right;
+}
+#main form table span{
+	font-size: 14px;
+	color: #fe5360;
+	font-family: "宋体";
+}
+#main form table select{
+	width: 185px;
+}
+
+#main form span{
+	color: #fe5360;
+}
+#main form input#save{
+	margin-left: 100px;
+	margin-top: 50px;
+	background: #21c4cd;
+	font-size: 24px;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid #05c6d0;
+}

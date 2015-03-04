@@ -1,0 +1,41 @@
+#content h1{
+	background: url(../img/content_header.png) no-repeat;
+}
+#main table{
+	width: 100%;
+	text-align: center;
+	font-family: "宋体";
+}
+#main table tr{
+	height: 200px;
+}
+#main table a{
+	display: block;
+	font-size: 14px;
+	color: #2a5597;
+}
+#main table p{
+	font-size: 12px;
+	color: #adacac;
+}
+#main table p span{
+	color: #b2b41a;
+	margin: 0 5px 0 5px;
+}
+#main .down_page_on{
+	font-size: 30px;
+	color: #fe5360;
+}
+#main ul{
+	float: right;
+	margin-top: 20px;
+	margin-right: 100px;
+}
+#main ul li{
+	display: inline;
+	margin-left: 10px;
+}
+#main li a{
+	font-size: 18px;
+	color: #9f9f9f;
+}
